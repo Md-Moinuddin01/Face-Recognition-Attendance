@@ -1,11 +1,11 @@
-
+'''
 Seed initial demo data for FaceTrack AI:
 - Default Departments
 - Super Admin & Staff Users
 - Schedules
 - Demo Face Enrollments
 - Today's sample attendance records
-
+'''
 import uuid
 from datetime import datetime, timezone, date, timedelta
 from app.core.database import SessionLocal, Base, engine
